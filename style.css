@@ -1,0 +1,162 @@
+.dice{
+    display: inline-block;
+    margin-left: 8px;
+
+    height: 100px;
+    width: 100px;
+
+    
+}
+
+.dice:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#playground{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sectionone{
+    align-content: right; 
+    margin: 2rem;   
+}
+
+.button{
+    align-content: center;
+}
+
+.btn{
+    
+    display: flex;
+    background-color: #56a5eb;
+    border: 2px solid black;
+    margin: 2px;
+    width: 50px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    padding: 2rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.butdiv
+{
+    display: flex;
+    justify-content: center;
+}
+
+.countMenu{
+    color: #56a5eb;
+    
+
+}
+
+#yatzyMenu{
+    
+    color: black;
+    float: right;
+    height: 5px;
+    
+}
+
+.container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.container{
+    background-color: #56a5eb;
+    border: 2px solid black;
+    margin: 2px;
+    width: 170px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container:visited{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.textScore{
+    color: black;
+    background-color: #56a5eb;
+    height: 20px;
+
+}
+
+.value{
+    color: black;
+    background-color: #56a5eb;
+    height: 20px;
+
+}
+
+
+.dice1{
+    background-image: url("dice1.png");
+    background-color: #141414;
+}
+.dice2{
+    background-image: url("dice2.png");
+    background-color: #141414;
+}
+.dice3{
+    background-image: url("dice3.png");
+    background-color: #141414;
+}
+.dice4{
+    background-image: url("dice4.png");
+    background-color: #141414;
+}
+.dice5{
+    background-image: url("dice5.png");
+    background-color: #141414;
+}
+.dice6{
+    background-image: url("dice6.png");
+    background-color: #141414;
+}
+
+
+.locked{
+
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+
+}
+
+*{
+    background-color: #141414;
+    font-family: 'Modak', cursive;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+
+    *{font-size: 10px;}
+    
+}
+@media (max-height: 768){
+    *{font-size: 10px}
+}
