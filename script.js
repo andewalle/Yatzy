@@ -159,7 +159,7 @@ const store = new Vuex.Store({
                     if(state.dice[i].number == diceNum){
                         score++;
                         if(score == 3){
-                            return score * 3;
+                            return diceNum * 3;
                         }
                     }
                 }
